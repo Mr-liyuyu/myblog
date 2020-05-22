@@ -3,6 +3,8 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
+        $data=M('wenzhang')->select();
+        $this->assign('wenz',$data);
         $this->display();
 	}
 	public function about(){

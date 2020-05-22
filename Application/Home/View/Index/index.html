@@ -7,7 +7,6 @@
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
     <meta name="viewport" content="width=device-width"/>
     <link rel="stylesheet" type="text/css" media="screen" href="__QRES__/style/style.css"/>
-    <link rel="shortcut icon" href="http://yispace.net/wp-content/themes/weiweiqi/img/favicon.ico"/>
     <script src="__QRES__/style/jquery.min.js"></script>
     <title>慧空间_故事网_新奇故事_美女图片</title>
     <script type="text/javascript">
@@ -66,7 +65,6 @@
             padding: 0 !important;
         }
     </style>
-    <link rel='https://api.w.org/' href='http://yispace.net/wp-json/'/>
     <meta name="keywords" content="慧空间,创意素材,成语故事,气功养生,历史典故,神话故事"/>
     <meta name="description"
 	content="慧空间故事阅读网为读者奉献古今历史各种故事典故阅读，经典的文章大全，青春励志语录名言，养生诀窍阅读，神话传说阅读，提升思想意境，阅读改变思想。"/>
@@ -129,6 +127,17 @@
             <!-- Baidu Button END --></div><!-- 分享代码 -->
 
         <ul class="excerpt thumb">
+            <?php foreach($wenz as $value=>$data): ?>
+            <?php echo '<li>'; ?>
+            <?php echo "<a href=':U('Index/read')' class='pic'><img src=$data['tp'] alt=$data['bt'] /></a>"; ?>
+            <?php echo "<h2 class='excerpt-tit'>"; ?>
+            <?php echo "<a href=":U('Index/read')">该去北上广哭，还是回小城市笑</a>"; ?>
+            <?php echo "</h2>"; ?>
+            <?php echo "<p class="excerpt-desc">"; ?>
+            <?php echo $data['zy']."</p>"; ?>
+            <?php echo "<div class='excerpt-time'>".$data['rq']."</div>"; ?>
+            <?php echo "</li>"; ?>
+            <?php endforeach; ?>
             <li>
                 <a href="{:U('Index/read')}" class="pic"><img src="__QRES__/images/5616542160.jpg"
                                                                          alt="该去北上广哭，还是回小城市笑"/></a>
@@ -145,219 +154,6 @@
 
                 <div class="excerpt-time">
                     08-23
-                </div>
-            </li>
-            <li>
-                <a href="http://yispace.net/42797.html" class="pic"><img src="__QRES__/images/561565160.jpg"
-                                                                         alt="那些越想炫耀自己的人，往往生活过得越糟糕"/></a>
-                <h2 class="excerpt-tit">
-                    <a href="http://yispace.net/42797.html">那些越想炫耀自己的人，往往生活过得越糟糕</a>
-                </h2>
-                <p class="excerpt-desc">
-
-                    那些关乎高价值的东西，总有些人会想方设法地炫耀出来，否则，就好像失去了当初买这个东西的意义。
-                    其实，到底是东西有价值，还是炫耀的做法有价值？
-                    唯有一点值得肯定…… </p>
-
-                <div class="excerpt-time">
-                    08-23
-                </div>
-            </li>
-            <li>
-                <a href="http://yispace.net/42793.html" class="pic"><img src="__QRES__/images/561564160.jpg"
-                                                                         alt="遇见这样的男人，赶紧分了吧！"/></a>
-                <h2 class="excerpt-tit">
-                    <a href="http://yispace.net/42793.html">遇见这样的男人，赶紧分了吧！</a>
-                </h2>
-                <p class="excerpt-desc">
-
-                    作者：摆渡人
-                    01
-                    表妹青青应邀去男朋友家，提前一周就打电话问母亲，带点什么好呢？母亲说，女孩子第一次登门，不宜过于隆重，就带点特产美食作伴手礼，聊表心意好了。
-                    …… </p>
-
-                <div class="excerpt-time">
-                    08-23
-                </div>
-            </li>
-            <li>
-                <a href="http://yispace.net/42789.html" class="pic"><img src="__QRES__/images/561563160.jpg"
-                                                                         alt="你会沟通吗？写得真好！"/></a>
-                <h2 class="excerpt-tit">
-                    <a href="http://yispace.net/42789.html">你会沟通吗？写得真好！</a>
-                </h2>
-                <p class="excerpt-desc">
-
-                    狮子和老虎之间爆发了一场激烈的冲突，到最后，两败俱伤。
-                    狮子快要断气时，对老虎说：“如果不是你非要抢我的地盘，我们也不会弄成现在这样。”
-                    老虎吃惊地说：“我从未想…… </p>
-
-                <div class="excerpt-time">
-                    08-23
-                </div>
-            </li>
-            <li>
-                <a href="http://yispace.net/42801.html" class="pic"><img src="__QRES__/images/5616541160.jpg"
-                                                                         alt="我为什么不喜欢在朋友圈点赞了"/></a>
-                <h2 class="excerpt-tit">
-                    <a href="http://yispace.net/42801.html">我为什么不喜欢在朋友圈点赞了</a>
-                </h2>
-                <p class="excerpt-desc">
-
-                    作者：Josie乔
-                    今天一早醒过来，习惯性点开微信，一看不得了，朋友圈竟然有21条与我有关的消息提醒，点开一看，全都是给别人点赞和评论的，原因是我昨晚临睡前给别人点…… </p>
-
-                <div class="excerpt-time">
-                    08-23
-                </div>
-            </li>
-            <li>
-                <a href="http://yispace.net/42785.html" class="pic"><img src="__QRES__/images/561562160.jpg"
-                                                                         alt="王宝强：你无法感同身受，就别劝我宽容大度"/></a>
-                <h2 class="excerpt-tit">
-                    <a href="http://yispace.net/42785.html">王宝强：你无法感同身受，就别劝我宽容大度</a>
-                </h2>
-                <p class="excerpt-desc">
-
-                    作者：李小狼，来源：李小狼（ID：hi-xiaolang）
-                    01
-                    这几天大街小巷全是王宝强的新闻，说他借钱打官司啊，老婆孩子携款跑路啦，这件事闹得太大了，但是，王宝强离婚事件…… </p>
-
-                <div class="excerpt-time">
-                    08-22
-                </div>
-            </li>
-            <li>
-                <a href="http://yispace.net/42781.html" class="pic"><img src="__QRES__/images/561561160.jpg"
-                                                                         alt="马蓉和宋喆最有可能是什么下场？"/></a>
-                <h2 class="excerpt-tit">
-                    <a href="http://yispace.net/42781.html">马蓉和宋喆最有可能是什么下场？</a>
-                </h2>
-                <p class="excerpt-desc">
-
-                    作者：NYLE，来源：知乎
-                    原文太长，重新编辑一下。我写这篇，就是看不惯有些人大叫着马宋拿到钱等舆论过去就能过得好的言论。
-                    如果每个人都是这样的认知，才说明这个社…… </p>
-
-                <div class="excerpt-time">
-                    08-22
-                </div>
-            </li>
-            <li>
-                <a href="http://yispace.net/42771.html" class="pic"><img src="__QRES__/images/562307160.jpg"
-                                                                         alt="人生感悟：不懂得享受寂寞的人生是没有意义的"/></a>
-                <h2 class="excerpt-tit">
-                    <a href="http://yispace.net/42771.html">人生感悟：不懂得享受寂寞的人生是没有意义的</a>
-                </h2>
-                <p class="excerpt-desc">
-
-                    有所准备，有所追求，然后可以甘于寂寞。王国维在《人间词话》中说过，古今之成大事业、大学问者，必经过三种之境界。第一种境界就是“昨夜西风凋碧树，独上高楼，望尽天…… </p>
-
-                <div class="excerpt-time">
-                    08-22
-                </div>
-            </li>
-            <li>
-                <a href="http://yispace.net/42775.html" class="pic"><img src="__QRES__/images/562308160.jpg"
-                                                                         alt="人生感悟：十年看婆婆，十年看媳妇"/></a>
-                <h2 class="excerpt-tit">
-                    <a href="http://yispace.net/42775.html">人生感悟：十年看婆婆，十年看媳妇</a>
-                </h2>
-                <p class="excerpt-desc">
-
-                    对门的好媳妇，是出了名的。
-                    对门老太摔了腿，几百天，一日三餐儿媳妇端到跟前，现在有了好转，下了班就陪婆婆锻炼。
-                    对门老太自己都说，她娶了一个比女儿还亲的儿媳妇…… </p>
-
-                <div class="excerpt-time">
-                    08-22
-                </div>
-            </li>
-            <li>
-                <a href="http://yispace.net/42751.html" class="pic"><img src="__QRES__/images/562302160.jpg"
-                                                                         alt="为什么不起眼的女人嫁得好？值得一看！"/></a>
-                <h2 class="excerpt-tit">
-                    <a href="http://yispace.net/42751.html">为什么不起眼的女人嫁得好？值得一看！</a>
-                </h2>
-                <p class="excerpt-desc">
-
-                    你有没有发现，很多不起眼的女人嫁得特别好，而且过得很幸福。比如某台湾企业的二公子，娶的女孩是普通的日式餐厅服务员。但是，这年头那么多优秀且漂亮的女人还单身呢…… </p>
-
-                <div class="excerpt-time">
-                    08-22
-                </div>
-            </li>
-            <li>
-                <a href="http://yispace.net/42747.html" class="pic"><img src="__QRES__/images/562301160.jpg"
-                                                                         alt="人生感悟：不着急，人生莫为急躁买单"/></a>
-                <h2 class="excerpt-tit">
-                    <a href="http://yispace.net/42747.html">人生感悟：不着急，人生莫为急躁买单</a>
-                </h2>
-                <p class="excerpt-desc">
-
-                    没有谁强迫我们过得如此忙碌。越是忙碌的人心里越恐慌、畏惧。他们往往因为太忙碌而忘记了思考。
-                    有人说，只有忙碌才能出成绩，那可不一定。八十五岁高龄，精神矍铄、潇…… </p>
-
-                <div class="excerpt-time">
-                    08-22
-                </div>
-            </li>
-            <li>
-                <a href="http://yispace.net/42755.html" class="pic"><img src="__QRES__/images/562303160.jpg"
-                                                                         alt="人生感悟：若心能顿悟，你我皆可成佛"/></a>
-                <h2 class="excerpt-tit">
-                    <a href="http://yispace.net/42755.html">人生感悟：若心能顿悟，你我皆可成佛</a>
-                </h2>
-                <p class="excerpt-desc">
-
-                    佛，不是一尊偶像，而是人生修行的硕果。不一定要焚香叩拜，佛在心中，而不在身外。佛是过来人，人是未来佛。佛之所以为佛，皆因他看透了常人看不透的局，做了常人做不…… </p>
-
-                <div class="excerpt-time">
-                    08-22
-                </div>
-            </li>
-            <li>
-                <a href="http://yispace.net/42759.html" class="pic"><img src="__QRES__/images/562304160.jpg"
-                                                                         alt="人生哲理：生活，别活得太急……"/></a>
-                <h2 class="excerpt-tit">
-                    <a href="http://yispace.net/42759.html">人生哲理：生活，别活得太急……</a>
-                </h2>
-                <p class="excerpt-desc">
-
-                    生活，别活得太急，一旦了了生命，就静寂得太久了。
-                    我们来不及享受生活，就是因为，我们从来都在匆匆忙忙掠过。所懂，仅仅是凤毛麟角，只见一斑。生活，是一本书，读得…… </p>
-
-                <div class="excerpt-time">
-                    08-22
-                </div>
-            </li>
-            <li>
-                <a href="http://yispace.net/42767.html" class="pic"><img src="__QRES__/images/562306160.jpg"
-                                                                         alt="经典哲理语录：做人，容万物，知进退！"/></a>
-                <h2 class="excerpt-tit">
-                    <a href="http://yispace.net/42767.html">经典哲理语录：做人，容万物，知进退！</a>
-                </h2>
-                <p class="excerpt-desc">
-
-                    人生的高度，不是你看清了多少事，而是你看轻了多少事。心灵的宽度，不是你认识了多少人，而是你包容了多少人。做人如山，望万物，而容万物。做人似水，能进退，而知进…… </p>
-
-                <div class="excerpt-time">
-                    08-22
-                </div>
-            </li>
-            <li>
-                <a href="http://yispace.net/42763.html" class="pic"><img src="__QRES__/images/562305160.jpg"
-                                                                         alt="励志的句子：糊涂的过，快乐的活，知足的乐"/></a>
-                <h2 class="excerpt-tit">
-                    <a href="http://yispace.net/42763.html">励志的句子：糊涂的过，快乐的活，知足的乐</a>
-                </h2>
-                <p class="excerpt-desc">
-
-                    健康第一，活得糊涂一点，活得潇洒一点，活得快乐一点。忘记年龄，忘记名利，忘记怨恨，忘记烦恼……有点不可能。
-                    有个朋友，有个知己，有个窝，有个伴，有点钱……有可能。…… </p>
-
-                <div class="excerpt-time">
-                    08-22
                 </div>
             </li>
         </ul>
