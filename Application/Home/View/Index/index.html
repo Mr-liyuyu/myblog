@@ -6,8 +6,8 @@
     <meta http-equiv="Cache-Control" content="no-transform"/>
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
     <meta name="viewport" content="width=device-width"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="__QRES__/style/style.css"/>
-    <script src="__QRES__/style/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="/Application/Home/public/style/style.css"/>
+    <script src="/Application/Home/public/style/jquery.min.js"></script>
     <title>慧空间_故事网_新奇故事_美女图片</title>
     <script type="text/javascript">
         window._wpemojiSettings = {
@@ -79,35 +79,35 @@
 
 <body class="home blog">
 <div class="img">
-    <img src="__QRES__/images/timg.jpg" height="300" width="100%">
+    <img src="/Application/Home/public/images/timg.jpg" height="300" width="100%">
 </div>
 <div class="topbar">
     <div class="inner">
 
         <ul class="nav">
             <li id="menu-item-180" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-180"><a
-                    title="成语故事_成语典故来由_增加词汇首选" href="http://yispace.net/category/philosophy-life">成语故事</a></li>
+                    title="成语故事_成语典故来由_增加词汇首选" href="/?fl=1">成语故事</a></li>
             <li id="menu-item-126" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-126"><a
-                    title="神话故事_中国古典神话素材_领略古人天马行空" href="http://yispace.net/category/inspirational-life">神话故事</a></li>
+                    title="神话故事_中国古典神话素材_领略古人天马行空" href="/?fl=2">神话故事</a></li>
             <li id="menu-item-489" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-489"><a
-                    title="故事会_怀念小时杂志_经典故事阅读" href="http://yispace.net/category/youth-campus">故事会</a></li>
+                    title="故事会_怀念小时杂志_经典故事阅读" href="/?fl=3">故事会</a></li>
             <li id="menu-item-143" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-143"><a
-                    title="气功养生_收录名家养生功法_强身健体" href="http://yispace.net/category/spiritual-journey">气功养生</a></li>
+                    title="气功养生_收录名家养生功法_强身健体" href="/?fl=4">气功养生</a></li>
             <li id="menu-item-137" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-137"><a
-                    title="名人传记_名人轶事_吸取成功经验" href="http://yispace.net/category/affection-sentiment">名人传记</a></li>
+                    title="名人传记_名人轶事_吸取成功经验" href="/?fl=5">名人传记</a></li>
             <li id="menu-item-2323" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2323">
-                <a title="历史典故_广为流传_脍炙人口经典流传" href="http://yispace.net/category/perception-life">历史典故</a></li>
+                <a title="历史典故_广为流传_脍炙人口经典流传" href="/?fl=6">历史典故</a></li>
             <li id="menu-item-14649" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14649"><a
-                    title="汉服欣赏_赏心悦目_顶尖颜值模特欣赏" href="http://yispace.net/category/jingdianyulu">汉服欣赏</a></li>
+                    title="汉服欣赏_赏心悦目_顶尖颜值模特欣赏" href="/?fl=7">汉服欣赏</a></li>
             <li id="menu-item-31436" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31436"><a
-                    title="冷知识_闻所未闻_奇奇怪怪的思想" href="http://yispace.net/category/good-books">十万个冷知识</a></li>
+                    title="冷知识_闻所未闻_奇奇怪怪的思想" href="/?fl=8">十万个冷知识</a></li>
             <li id="menu-item-31768" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31768"><a
-                    title="生活妙招_生活小妙招_轻松解决生活难题" href="http://yispace.net/category/renwen">生活小妙招</a></li>
+                    title="生活妙招_生活小妙招_轻松解决生活难题" href="/?fl=9">生活小妙招</a></li>
         </ul>
 
         <ul class="nav topmenu">
             <li id="menu-item-12460" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12460"><a
-                    href="{:U('Index/about')}">关于本站</a></li>
+                    href="/index.php/Home/index/about">关于本站</a></li>
         </ul>
     </div>
 </div>
@@ -128,112 +128,96 @@
 
         <ul class="excerpt thumb">
             <?php foreach($wenz as $value=>$data): ?>
-            <?php echo '<li>'; ?>
-            <?php echo "<a href=':U('Index/read')' class='pic'><img src=$data['tp'] alt=$data['bt'] /></a>"; ?>
+	    <if condition="$data['id'] neq ''">
+            <?php echo "<li>"; ?>
+            <?php echo "<a href='/index.php/Home/Index/read?id=".$data['id']."' class='pic'>"; ?>
+            <?php echo "<img src='/Public/".$data['tp']."' alt='".$data['bt']." '/></a>"; ?>
             <?php echo "<h2 class='excerpt-tit'>"; ?>
-            <?php echo "<a href=":U('Index/read')">该去北上广哭，还是回小城市笑</a>"; ?>
+            <?php echo "<a href='/index.php/Home/Index/read?id=".$data['id']."'>".$data['bt']." </a>"; ?>
             <?php echo "</h2>"; ?>
-            <?php echo "<p class="excerpt-desc">"; ?>
-            <?php echo $data['zy']."</p>"; ?>
-            <?php echo "<div class='excerpt-time'>".$data['rq']."</div>"; ?>
+            <?php echo "<p class='excerpt-desc'>"; ?>
+            <?php echo "作者：".$data['zz'].";<br/>内容：".$data['zy']."</p>"; ?>
+            <?php echo "<div class='excerpt-time'>".$data['rq']; ?>
+            <?php echo "</div>"; ?>
             <?php echo "</li>"; ?>
+	    </if>
             <?php endforeach; ?>
-            <li>
-                <a href="{:U('Index/read')}" class="pic"><img src="__QRES__/images/5616542160.jpg"
-                                                                         alt="该去北上广哭，还是回小城市笑"/></a>
-                <h2 class="excerpt-tit">
-                    <a href="{:U('Index/read')}">该去北上广哭，还是回小城市笑</a>
-                </h2>
-                <p class="excerpt-desc">
-
-                    作者：果仁小姐
-                    来源：青葱白纸（ID：qingcongbaizhi)
-                    1
-                    表妹即将大学毕业，问我这个过来人有什么干货分享。
-                    我说我这么有湿意的人，肚子里哪有什么干货。煲鸡汤也不是…… </p>
-
-                <div class="excerpt-time">
-                    08-23
-                </div>
-            </li>
         </ul>
 
-        <div class="paging"><span class='current'>1</span> <a href='http://139.9.63.87' title='第 2 页'>2</a> <a
-                href='http://139.9.63.87' title='第 3 页'>3</a> <a href='http://139.9.63.87'
-                                                                        title='第 4 页'>4</a> <a
-                href='http://139.9.63.87' title='第 5 页'>5</a> <span class='dots'> ... </span><a
-                href='http://139.9.63.87' title='&raquo;'>655</a> <a href="http://139.9.63.87">&gt;</a>
+        <div class='paging'><a href='/?num=0
+	<if condition="$fl neq ''">
+	<?php echo "&fl=".$fl; ?>
+	</if>
+	'>1</a> <a href='/?num=1
+	<if condition="$fl neq ''">
+        <?php echo "&fl=".$fl; ?>
+        </if>
+	'>2</a> <a href='/?num=2
+	<if condition="$fl neq ''">
+        <?php echo "&fl=".$fl; ?>
+        </if>
+	'>3</a> <a href='/?num=3
+	<if condition="$fl neq ''">
+        <?php echo "&fl=".$fl; ?>
+        </if>
+	'>4</a> <a href='/?num=4
+	<if condition="$fl neq ''">
+        <?php echo "&fl=".$fl; ?>
+        </if>
+	'>5</a> 
+	<span class='dots'> ... </span>
         </div>
 
     </div>
     <div class="sidebar">
-        <img src="__QRES__/images/56.jpg" height="150" width="300">
+        <img src="/Application/Home/public/images/56.jpg" height="150" width="300">
         <div class="widget widget_categories"><h3 class="widget-tit">文章分类</h3>
             <ul>
-                <li class="cat-item cat-item-18"><a href="http://yispace.net/category/philosophy-life"
+                <li class="cat-item cat-item-18"><a href="/?fl=1"
                                                     title="成语故事_成语典故来由_增加词汇首选">成语故事_成语典故来由_增加词汇首选</a>
                 </li>
-                <li class="cat-item cat-item-795"><a href="http://yispace.net/category/perception-life"
+                <li class="cat-item cat-item-795"><a href="/?fl=2"
                                                      title="神话故事_中国古典神话素材_领略古人天马行空">神话故事_中国古典神话素材_领略古人天马行空</a>
                 </li>
-                <li class="cat-item cat-item-25"><a href="http://yispace.net/category/network"
+                <li class="cat-item cat-item-25"><a href="/?fl=3"
                                                     title="故事会_怀念小时杂志_经典故事阅读">故事会_怀念小时杂志_经典故事阅读</a>
                 </li>
-                <li class="cat-item cat-item-1"><a href="http://yispace.net/category/inspirational-life"
+                <li class="cat-item cat-item-1"><a href="/?fl=4"
                                                    title="气功养生_收录名家养生功法_强身健体">气功养生_收录名家养生功法_强身健体</a>
                 </li>
-                <li class="cat-item cat-item-119"><a href="http://yispace.net/category/workplace-life"
+                <li class="cat-item cat-item-119"><a href="/?fl=5"
                                                      title="名人传记_名人轶事_吸取成功经验">名人传记_名人轶事_吸取成功经验</a>
                 </li>
-                <li class="cat-item cat-item-1376"><a href="http://yispace.net/category/good-books"
+                <li class="cat-item cat-item-1376"><a href="/?fl=6"
                                                       title="历史典故_广为流传_脍炙人口经典流传">历史典故_广为流传_脍炙人口经典流传</a>
                 </li>
-                <li class="cat-item cat-item-198"><a href="http://yispace.net/category/youth-campus"
+                <li class="cat-item cat-item-198"><a href="/?fl=7"
                                                      title="汉服欣赏_赏心悦目_顶尖颜值模特欣赏">汉服欣赏_赏心悦目_顶尖颜值模特欣赏</a>
                 </li>
-                <li class="cat-item cat-item-330"><a href="http://yispace.net/category/renwen"
+                <li class="cat-item cat-item-330"><a href="/?fl=8"
                                                      title="冷知识_闻所未闻_奇奇怪怪的思想">十万个冷知识</a>
                 </li>
-                <li class="cat-item cat-item-211"><a href="http://yispace.net/category/poetry"
+                <li class="cat-item cat-item-211"><a href="/?fl=9"
                                                      title="生活妙招_生活小妙招_轻松解决生活难题">生活妙招_生活小妙招_轻松解决生活难题</a>
                 </li>
-                <li class="cat-item cat-item-5"><a href="http://yispace.net/category/affection-sentiment"
+                <li class="cat-item cat-item-5"><a href="http://www.baidu.com/s?wd=素材"
                                                    title="外网资源_收集外网优秀资源_提供大量素材">外网资源_收集外网优秀资源_提供大量素材</a>
                 </li>
-                <li class="cat-item cat-item-19"><a href="http://yispace.net/category/spiritual-journey"
+                <li class="cat-item cat-item-19"><a href="/"
                                                     title="联系小编_搭建服务器_软件定制_项目开发">联系小编_搭建服务器_软件定制_项目开发</a>
                 </li>
-                <li class="cat-item cat-item-3770"><a href="http://yispace.net/category/jingdianyulu"
+                <li class="cat-item cat-item-3770"><a href="/"
                                                       title="PPT模板下载_免费下载_高效工作">模板下载_免费下载_高效工作</a>
                 </li>
             </ul>
         </div>
         <div class="widget widget_recent_entries"><h3 class="widget-tit">最新发表</h3>
             <ul>
-                <li>
-                    <a href="http://yispace.net/42805.html">该去北上广哭，还是回小城市笑</a>
-                </li>
-                <li>
-                    <a href="http://yispace.net/42797.html">那些越想炫耀自己的人，往往生活过得越糟糕</a>
-                </li>
-                <li>
-                    <a href="http://yispace.net/42793.html">遇见这样的男人，赶紧分了吧！</a>
-                </li>
-                <li>
-                    <a href="http://yispace.net/42789.html">你会沟通吗？写得真好！</a>
-                </li>
-                <li>
-                    <a href="http://yispace.net/42801.html">我为什么不喜欢在朋友圈点赞了</a>
-                </li>
-                <li>
-                    <a href="http://yispace.net/42785.html">王宝强：你无法感同身受，就别劝我宽容大度</a>
-                </li>
-                <li>
-                    <a href="http://yispace.net/42781.html">马蓉和宋喆最有可能是什么下场？</a>
-                </li>
-                <li>
-                    <a href="http://yispace.net/42771.html">人生感悟：不懂得享受寂寞的人生是没有意义的</a>
-                </li>
+                <?php foreach($wenz as $value=>$data): ?>
+                <?php echo "<li>"; ?>
+                <?php echo "<a href='/index.php/Home/Index/read?&id=".$data['id']."'>".$data['bt']."</a>"; ?>
+                <?php echo "</li>"; ?>
+                <?php endforeach; ?>
             </ul>
         </div>
         <div class="widget widget_links"><h3 class="widget-tit">友情链接</h3>
@@ -267,7 +251,7 @@
     </div>
 </div>
 
-<script type='text/javascript' src='http://yispace.net/wp-includes/js/wp-embed.min.js?ver=4.5.2'></script>
+<script type='text/javascript' src='/'></script>
 
 <!-- 百度自动推送 -->
 <script>

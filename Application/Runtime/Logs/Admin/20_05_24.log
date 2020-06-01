@@ -1,0 +1,787 @@
+[ 2020-05-24T10:31:55+08:00 ] 110.53.67.5 /index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /var/www/html/Application/Admin/Controller/IndexController.class.php 第 6 行.
+NOTIC: [8] Undefined index: admin /var/www/html/Application/Admin/Controller/IndexController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+
+[ 2020-05-24T10:32:04+08:00 ] 110.53.67.5 /index.php/Admin/index/logon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /var/www/html/Application/Admin/Controller/IndexController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000037s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2020-05-24T10:32:05+08:00 ] 110.53.67.5 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /var/www/html/Application/Admin/Controller/IndexController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000231s ]
+
+[ 2020-05-24T10:37:55+08:00 ] 110.53.67.5 /index.php/admin/edit/inset
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /var/www/html/Application/Admin/Controller/EditController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0013s ]
+SQL: INSERT INTO `wenzhang` (`fl`,`zz`,`bt`,`zy`,`nr`,`rq`) VALUES ('9','admin','保鲜膜妙用_不仅仅瘦腿哦','其实生活中有很多东西，都是可以废物利用的，又能使我们更方便，今天我们就来聊一聊废物利用——生活小妙招','其实生活中有很多东西，都是可以废物利用的，又能使我们更方便，今天我们就来聊一聊废物利用——生活小妙招之废物利用，不花一分钱，招招有用！（之前发布的有很多转发和收藏、真的很感谢，也很开心，如果你喜欢我和我分享的东西，请关注、收藏和转发吧，比心）
+
+今天具体来分享的是保鲜膜的废物利用！
+保鲜膜经常用来包裹蔬菜、水果等一些食材，除了这些功能外，保鲜膜还有其他的用法~很赞哦！
+
+一、去油污
+
+盘子、碗、水池内壁、杯子、各种玻璃罐制品，不好清洗，做完饭后把保鲜膜卷起来，直接清洗，去除油污污垢就很容易了，每天清洗保持整洁，如长时间没有进行清洗，使用此方法时，可放些洗洁精，配合上保鲜膜事半功倍！
+
+用这种方法可以擦拭很多厨房污垢，省掉很多时间和力气。
+
+油烟机的油盒子里铺上一层保鲜膜，有油的时候直接把保鲜膜拿出来扔掉就可以了
+二、封闭作用：
+
+出差、旅行是要带很多洗漱用品和护肤品，放在行李中颠簸会怕他们洒出去，用保鲜膜盖住瓶口，然后在盖紧盖子，这样就万无一失了。
+
+一些重要证件，比如毕业证、学位证、各种证明、在上面铺上一层保鲜膜再保存，隔绝了空气和灰尘，防止氧化发黄。
+
+遥控器按钮多，时间长了脏了不好清洗，可以帮遥控器穿上衣服。用保鲜膜包裹住遥控器，再用吹风机热风吹好，脏了直接把“衣服”扔了就可以了！
+
+三、缓解干燥
+
+秋冬季节天气干燥，皮肤缺水，用润肤露涂在需要缓解干燥的地方，用保鲜膜覆盖住，防止水分蒸发，30分钟后拿下来即可，如果手脚干燥严重可以在睡前涂完润肤露包裹住，第二天早上再拿下来，会有很好的效果。
+
+唇部皮肤娇嫩，容易起皮不好处理，用同样的方法，会有明显效果，尤其女士喜欢涂口红，用这招，唇部皮肤不起皮，软弹饱满。
+四、头发护理
+
+洗头发涂抹过护发素后，可用保鲜膜包裹住头发，可增加营养吸收。
+
+同样，在家自己染发时，也可参照此方法，可是头发上色更好，更均匀。
+
+一上就是今天整理的生活小妙招。','2020/05/24') [ RunTime:0.0042s ]
+SQL: UPDATE `wenzhang` SET `tp`='16.jpg' WHERE ( id=16 ) [ RunTime:0.0044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000031s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2020-05-24T10:37:56+08:00 ] 110.53.67.5 /index.php/admin/edit/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /var/www/html/Application/Admin/Controller/EditController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wenzhang` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` LIMIT 1   [ RunTime:0.0556s ]
+NOTIC: [8] Undefined index: num /var/www/html/Application/Admin/Controller/EditController.class.php 第 19 行.
+NOTIC: [8] Undefined index: id /var/www/html/Application/Admin/Controller/EditController.class.php 第 26 行.
+NOTIC: [2] Use of undefined constant stripcslashes - assumed 'stripcslashes' (this will throw an Error in a future version of PHP) /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000222s ]
+
+[ 2020-05-24T10:41:49+08:00 ] 110.53.67.5 /index.php/admin/edit/inset
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /var/www/html/Application/Admin/Controller/EditController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0010s ]
+SQL: INSERT INTO `wenzhang` (`fl`,`zz`,`bt`,`zy`,`nr`,`rq`) VALUES ('8','admin','公鸡为何会在早上打鸣','公鸡在早上咯咯咯打鸣,对于大多数人来说，似乎是一个理所当然的现象。在许多国家，公鸡的啼叫被当作破晓的','公鸡在早上咯咯咯打鸣,对于大多数人来说，似乎是一个理所当然的现象。在许多国家，公鸡的啼叫被当作破晓的象征。但“公鸡为什么会在早上打鸣”？这个问题可不简单，甚至难倒了科学家。
+
+也许你不会相信，直到2013年才有科学家就这个问题进行了认真解答，并发表了一篇论文。
+
+首先，我们得知道，公鸡在一天中的任何时候都会叫，并不是只有早上才会叫。有时候，公鸡会因为有其他动物的入侵、宣告领土或其他公鸡的威胁，把啼叫作为警告。不过，没事的时候，它们确实是早上叫得最多。
+
+多年来，科学家认为公鸡之所以在早上打鸣，是因为太阳升起后，光线由暗至明，公鸡受到光线的刺激而做出反应。不过，有些人认为，公鸡不是受到光线刺激，而是知道早上要来了才打鸣的，也就是说，公鸡有时间概念，到了早上就像闹钟一样叮叮叮地响个不停。
+
+日本名古屋大学的科学家们决定做一个实验，来看看到底哪个说法才对。
+
+科学家先找了一批公鸡，观察它们在正常情况下的啼叫频率。结果发现，一天下来，公鸡不仅在早上会叫，在喂食时也会鸣叫。并且那些叫嚷在最前面的总是想获得更多的食物。
+
+在正式的实验中，科学家对公鸡所处的封闭房间的光照进行了控制：光照12小时，然后关灯12小时，重复两周。结果发现，在规律的光照下，公鸡会在光照来临前两小时左右开始打鸣。
+
+科学家还有一个有趣的发现：地位优势明显的鸡叫得比其他鸡更早一些，地位最高的公鸡有破晓的最优先权。然后按顺序挨个打鸣，地位最低的只能在其他鸡叫完后默默垫个底。另有研究也证实，地位越低的公鸡，打鸣的频率也越低。以上发现说明，打鸣确实是公鸡宣扬地位的一种方式。
+在之后的两周，这一屋子的公鸡将进入全面的“黑暗时代”，即24小时无光照。科学家发现，在第一周“黑暗时代”里，这些公鸡似乎还能记得之前12小时规律光照实验中大概的时间，在要有光照的时候开始打鸣。
+
+然而，随着时间的推移，公鸡似乎慢慢出现了偏差，对于它们来说，原本周期是24小时一次破晓打鸣的，全黑后变成了23.8小时一次，相差了0.2小时，也就是说，在黑暗环境下，公鸡对时间的感知出现了问题。这种打鸣的规律性逐渐被打破了，它们不再相对固定地打鸣，这说明光照确实影响了公鸡打鸣。
+在黑暗条件下，科学家试图通过随机时间的光照和播放公鸡的啼叫来欺骗它们。结果发现，虽然这些刺激确实会引起一些鸣叫，但如果这种刺激是在之前光照开启的时间前后，那么它们打鸣会比其他时间点更频繁。
+
+因此，科学家得出结论：公鸡打鸣主要是由内在的生物钟调节的，同时会受到外部环境的影响。此外，由于公鸡在一天中的其他时间不会像光照前后（黎明）那样强烈地鸣叫，研究人员认为公鸡的“内部时钟优先于外部信号”。
+
+那么，什么是生物钟？
+
+2017年的诺贝尔生理学奖三位获得者的研究对此进行了解答，正是他们发现了生物体昼夜节律的分子机制。
+
+简单来说，人和其他动物的生物钟是由一系列的基因和蛋白共同作用而形成的24小时的节律性行为，影响了不同时间段的生理变化，比如体温、脉搏、血压、激素分泌等等。
+
+至于公鸡为什么在早上叫的最多这一点，科学家们还没有完全弄清楚。不过，考虑到打鸣是公鸡宣扬地位的一种方式，也许公鸡深谙 “一日之计在于晨”的道理，在早上通过打鸣确定自己的地位，可不能从一大早就乱了套。
+
+','2020/05/24') [ RunTime:0.0048s ]
+SQL: UPDATE `wenzhang` SET `tp`='17.jpg' WHERE ( id=17 ) [ RunTime:0.0046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000224s ]
+
+[ 2020-05-24T10:41:50+08:00 ] 110.53.67.5 /index.php/admin/edit/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /var/www/html/Application/Admin/Controller/EditController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenzhang` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` LIMIT 1   [ RunTime:0.0627s ]
+NOTIC: [8] Undefined index: num /var/www/html/Application/Admin/Controller/EditController.class.php 第 19 行.
+NOTIC: [8] Undefined index: id /var/www/html/Application/Admin/Controller/EditController.class.php 第 26 行.
+NOTIC: [2] Use of undefined constant stripcslashes - assumed 'stripcslashes' (this will throw an Error in a future version of PHP) /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2020-05-24T10:43:55+08:00 ] 110.53.67.5 /index.php/admin/edit/inset
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /var/www/html/Application/Admin/Controller/EditController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0009s ]
+SQL: INSERT INTO `wenzhang` (`fl`,`zz`,`bt`,`zy`,`nr`,`rq`) VALUES ('7','admin','汉服美女1','汉服美女1','汉服美女1','2020/05/24') [ RunTime:0.0046s ]
+SQL: UPDATE `wenzhang` SET `tp`='18.jpg' WHERE ( id=18 ) [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2020-05-24T10:43:58+08:00 ] 110.53.67.5 /index.php/admin/edit/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /var/www/html/Application/Admin/Controller/EditController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenzhang` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` LIMIT 1   [ RunTime:0.0550s ]
+NOTIC: [8] Undefined index: num /var/www/html/Application/Admin/Controller/EditController.class.php 第 19 行.
+NOTIC: [8] Undefined index: id /var/www/html/Application/Admin/Controller/EditController.class.php 第 26 行.
+NOTIC: [2] Use of undefined constant stripcslashes - assumed 'stripcslashes' (this will throw an Error in a future version of PHP) /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000227s ]
+
+[ 2020-05-24T10:49:52+08:00 ] 110.53.67.5 /index.php/admin/edit/inset
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /var/www/html/Application/Admin/Controller/EditController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0010s ]
+SQL: INSERT INTO `wenzhang` (`fl`,`zz`,`bt`,`zy`,`nr`,`rq`) VALUES ('6','admin','信而葬金','李勉，字玄卿，生于开元五年（公元717年），唐朝宗室，曾祖父是唐高祖李渊第十三子——郑惠王李元懿，父','李勉，字玄卿，生于开元五年（公元717年），唐朝宗室，曾祖父是唐高祖李渊第十三子——郑惠王李元懿，父亲李择言曾任岐州刺史。
+
+李勉少年时期贫苦，坚持苦读经史，养成了沉稳的性格，最初担任开封县尉，以政绩突出升任监察御史，受封太常少卿，受李辅国排挤，离开京城，历任汾州刺史、河南尹、江西观察使。
+
+唐代宗在位时，李勉调回京城，任职京兆尹、拜御史大夫，后来又受鱼朝恩的排挤，再度离开京城，任职岭南节度使。
+
+大历十年（775年），因平乱有功，李勉升任工部尚书，受封汧[qiān] 国公，后任太子太师时退休。
+
+《尚书谭录》记载：天宝年间，李勉游学时，客居在宋州某旅馆内，和他一起住店的一个书生没几天就生病了。
+
+书生的病越来越重，医治已经没有效果了，他临终前叮嘱李勉说：“我家住在洪州，本打算去京城求个一官半职，不想染上重病，我快要死了，这是命啊！”
+
+书生颤抖地从怀里掏出一百两黄金，送到李勉的手中说：“我随身的仆人不知道我藏有黄金，请足下为我操办后事，剩余的黄金就赠送给足下了！”
+
+李勉答应了书生的请求，等书生死后，为他办理了丧事。
+
+当时，李勉虽然是个穷学生，但他在财宝面前，不为所动，把剩余的金子悄悄随葬在书生的墓中。
+
+过了很多年，李勉做了开封县尉。
+
+那位书生的兄长，专程来到开封致谢。
+
+李勉和书生的哥哥一起来到书生的墓地，取出了黄金，送还了书生之兄。
+
+李勉“公忠雅正”，“素有德望”，为人正直诚信。
+
+贞元四年（788年），李勉病逝，享年七十二岁。','2020/05/24') [ RunTime:0.0080s ]
+SQL: UPDATE `wenzhang` SET `tp`='19.jpg' WHERE ( id=19 ) [ RunTime:0.0049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2020-05-24T10:49:53+08:00 ] 110.53.67.5 /index.php/admin/edit/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /var/www/html/Application/Admin/Controller/EditController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wenzhang` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` LIMIT 1   [ RunTime:0.0552s ]
+NOTIC: [8] Undefined index: num /var/www/html/Application/Admin/Controller/EditController.class.php 第 19 行.
+NOTIC: [8] Undefined index: id /var/www/html/Application/Admin/Controller/EditController.class.php 第 26 行.
+NOTIC: [2] Use of undefined constant stripcslashes - assumed 'stripcslashes' (this will throw an Error in a future version of PHP) /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2020-05-24T10:54:52+08:00 ] 110.53.67.5 /index.php/admin/edit/inset
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /var/www/html/Application/Admin/Controller/EditController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0010s ]
+SQL: INSERT INTO `wenzhang` (`fl`,`zz`,`bt`,`zy`,`nr`,`rq`) VALUES ('5','admin','唐伯虎学画画','唐伯虎是明朝著名的画家和文学家，小的时候在画画方面显示了超人的才华。唐伯虎拜师，拜在大画家沈周门下，','唐伯虎是明朝著名的画家和文学家，小的时候在画画方面显示了超人的才华。唐伯虎拜师，拜在大画家沈周门下，学习自然更加刻苦勤奋，掌握绘画技艺很快，深受沈周的称赞。
+
+不料，由于沈周的称赞，这次使一向谦虚的唐伯虎也渐渐地产生了自满的情绪，沈周看在眼中，记在心里，一次吃饭，沈周让唐伯虎去开窗户，唐伯虎发现自己手下的窗户竟是老师沈周的一幅画，唐伯虎非常惭愧，从此潜心学画，终有大成。','2020/05/24') [ RunTime:0.0047s ]
+SQL: UPDATE `wenzhang` SET `tp`='20.jpg' WHERE ( id=20 ) [ RunTime:0.0045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000297s ]
+
+[ 2020-05-24T10:54:53+08:00 ] 110.53.67.5 /index.php/admin/edit/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /var/www/html/Application/Admin/Controller/EditController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wenzhang` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` LIMIT 1   [ RunTime:0.0553s ]
+NOTIC: [8] Undefined index: num /var/www/html/Application/Admin/Controller/EditController.class.php 第 19 行.
+NOTIC: [8] Undefined index: id /var/www/html/Application/Admin/Controller/EditController.class.php 第 26 行.
+NOTIC: [2] Use of undefined constant stripcslashes - assumed 'stripcslashes' (this will throw an Error in a future version of PHP) /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2020-05-24T10:58:41+08:00 ] 110.53.67.5 /index.php/admin/edit/inset
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /var/www/html/Application/Admin/Controller/EditController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0011s ]
+SQL: INSERT INTO `wenzhang` (`fl`,`zz`,`bt`,`zy`,`nr`,`rq`) VALUES ('4','admin','鬼门十三针是什么？','今天呢，要和大家说一个同样非常神奇的存在，他被称作“鬼穴十三针”或者是它更为为著名的一个名字“鬼门十','今天呢，要和大家说一个同样非常神奇的存在，他被称作“鬼穴十三针”或者是它更为为著名的一个名字“鬼门十三针”。据说这套针法是专门治疗一些疑难杂症的的特殊针灸技能。最早呢，相传是神医扁鹊留下来的一套医学绝学，后来传到了唐代的神医孙思邈这里，又在它原有的基础之上，拓展为十五穴。其实历代的医学家对“十三鬼穴疗法”都有过论及，比如明代徐凤的《针灸大全》、杨继洲的《针灸大成》以及高武的《针灸聚英》等等，都是有过记载的。而且对“鬼穴十三针”的记载也基本都是一致的。还有一种说法，说是“鬼穴十三针”是由道教的张天师所发明，据说是可以祛病除邪，而且治疗好之后可以永不复发。这真的堪称是医学神技。从现在的科学的角度上来讲这所谓的“十三鬼穴”，对于那些抑郁症、强迫症、精神分裂症等一系列的精神疾病都有奇效。但是按照古人的说法就是非常的神秘的了。据说在古时刺人鬼穴的时候，医者需要大声呵斥病人说：何妖何鬼为祸？病人即刻就会自说来由，然后医者就会用笔一一记录下来：言尽狂，方宜退针。还有一种说法就是施针者的生辰八字至少占两个寅时。第二就是要用银针，以引鬼出身。三是要以劝说为主，不要扎完十三针，最多6~7针。针扎上之后，还要先采取轻刺激的方法，边扎针边恐吓它：你服不服？如果对方说服了，那就讲条件，按照它的要求去办。如果不服，那就要采取强刺激的方法，通常都是驱走妖鬼即可，不可赶尽杀绝，否则医者就是自找麻烦。所以通常医生还会随身携带一道符咒，以防止惹祸上身。当然了，这十三个穴位的名字，也是非常有意思的。分别是：鬼封、鬼宫、鬼窟、鬼垒、鬼路、鬼市、鬼堂、鬼枕、鬼心、鬼腿、鬼信、鬼营、鬼藏、鬼臣。现到如今，会这项技能的可谓是少之又少，因为在以前由于“鬼门十三针“一直被认为属于”旁门左道“，很难登入大雅之堂。所以在中医教学、师徒传授等传承手段中通常是被删除得干干净净，所以若是想得此真传，更加是难上加难。但是呢，却不得不说，“鬼门十三针”对于精神方面的疾病确实是大有疗效的！','2020/05/24') [ RunTime:0.0044s ]
+SQL: UPDATE `wenzhang` SET `tp`='21.jpg' WHERE ( id=21 ) [ RunTime:0.0046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000230s ]
+
+[ 2020-05-24T10:58:42+08:00 ] 110.53.67.5 /index.php/admin/edit/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /var/www/html/Application/Admin/Controller/EditController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenzhang` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` LIMIT 1   [ RunTime:0.0550s ]
+NOTIC: [8] Undefined index: num /var/www/html/Application/Admin/Controller/EditController.class.php 第 19 行.
+NOTIC: [8] Undefined index: id /var/www/html/Application/Admin/Controller/EditController.class.php 第 26 行.
+NOTIC: [2] Use of undefined constant stripcslashes - assumed 'stripcslashes' (this will throw an Error in a future version of PHP) /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000251s ]
+
+[ 2020-05-24T11:03:30+08:00 ] 110.53.67.5 /index.php/admin/edit/inset
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /var/www/html/Application/Admin/Controller/EditController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0009s ]
+SQL: INSERT INTO `wenzhang` (`fl`,`zz`,`bt`,`zy`,`nr`,`rq`) VALUES ('3','admin','鬼丈夫守妻20年','　古往今来，神仙鬼怪的故事就不绝于耳，人鬼之间的爱恨纠葛往往让痴迷于奇异故事的人欲罢不能。
+
+　','　古往今来，神仙鬼怪的故事就不绝于耳，人鬼之间的爱恨纠葛往往让痴迷于奇异故事的人欲罢不能。
+
+　　在环山村就流传着这样一个故事，它并不是发生在人与鬼之间，而是发生在鬼与鬼之间，所以更是光怪陆离，让人称道。
+
+　　阿山和阿芳同年出生，从小就生活在一个村子里，村子人口不多，同龄大的孩子就更少，所以阿山和阿芳就成为了最好的玩伴，也为他们打下了坚实的感情基础。
+
+　　二十岁的时候，阿芳得了一场重病，阿山急得焦头烂额，每天嘘寒问暖，照顾阿芳，阿芳深受感动，这时他们才知道原来他们已经深爱着彼此。
+
+　　后来，阿山和阿芳顺理成章的成婚了，成为了同村人中令人羡慕的鸳侣。他们的感情很好，充分贯彻了古代人男耕女织的理想生活状态。
+
+　　渐渐的，两个人之间倒形成了一种奇特的默契。阿山担负起所有的养家重担，以至于阿芳基本没有了赚钱的能力，而阿芳干了所有的日常琐事，以至于阿山基本没有了照顾自己的能力。这样的关系很奇特，可他们却并没有觉得不妥，因为爱，所以付出，也坦然接受对方的爱。
+
+　　三十岁的时候，村子周围的山里闹蛇灾，村子组织所有精壮男子上山打蛇，阿山也加入了。可是人与蛇之间的战斗本就是危险的，阿山不幸被一条毒蛇咬中，眼看就要死了。
+
+　　人在将死未死的时候，会进入到一种奇特的状态，魂魄会脱离身体，而身体却残存一息，也就是所谓的弥留之际。
+
+　　地府之中有黑白无常，专做勾魂之事。他们见到阿山将死，魂魄已出，准备把他带走。可是阿山因为心中深深挂念着阿芳，于是苦苦哀求。他知道自己如果死了，阿芳也活不下去，他把自己和妻子的感情一五一十的讲给黑白无常听。
+
+　　这可让黑白无常犯难了，阿山既然已死，按律是必须被带走的，否则人死后再重生，那天下岂不是大乱了？阿山也明白这个道理，所以提出了一个折中方案。阿山死了这件事是不可逆转的，但是魂魄何时被收走却是可以商议的，他希望黑白无常可以给他一些时间，让他陪伴自己的爱妻。
+
+　　地府之所以急于收集死人魂魄，是怕这些鬼魂留在人世祸害人间。可是阿山显然不会，而且黑白无常也被阿山和阿芳之间的感情感动，所以还是决定给他这个机会。所谓天上一日人间一年，让他在人间陪伴妻子几年，对他们来说就是几天而已，成人之美何乐不为呢。
+
+　　于是乎，阿山进入到一种诡异的状态，他的魂魄附着在尸体上，重新成为了人，但又是已死的状态，成为了半人半鬼。
+
+　　阿山回到家，阿芳并没有发现异常。他们继续过着幸福的生活，而且阿山对阿芳更加体贴了，因为他也不知道自己能陪阿芳多长时间，没准哪天自己就被地府带走了。
+
+　　这样的日子持续了十年，阿山成为了阿芳的鬼丈夫，平日里继续日出而作、日落而息。实际上因为他是鬼的关系，他根本不知道什么是疲惫，也不需要睡眠。他最喜欢的事情就是每天晚上看着妻子熟睡的样子。
+
+　　可是这天晚上，阿山突然感觉到房子周围阴风阵阵，他隐隐感觉到自己的大限就要到了。
+
+　　果不其然，黑白无常悄然出现在房间里，然后对着阿山说，“你们的事情已经被阎王知道了，阎王爷下令必须带你们走。”
+
+　　“这一天还是来了，”阿山下意识的答应了，可突然又觉得不对劲，“等等？我们？这是什么意思？”
+
+　　黑白无常对视一眼，“还是让她自己和你说吧。”
+
+　　“她？”阿山一愣。
+
+　　“阿山，是我。”阿山背后一个熟悉的声音传来。
+
+　　阿山猛的回头，发现此时阿芳已经坐了起来，“阿芳？这是怎么回事？”
+
+　　阿芳温柔的看着阿山，眼泪不住的流下。
+
+　　“算了，还是我来说吧。”白无常说，“她其实二十年前就已经死了，比你还早死十年呢！”
+
+　　“什么？”阿山仿佛不敢相信自己的耳朵，“阿芳，这是真的？”
+
+　　阿芳苦笑着说，“还记得当初我患的那场大病吗？当时我就已经死了，可是我实在是太爱你了，于是才肯求黑白无常留我在人间多陪陪你。”
+
+　　阿山转过身，看着黑白无常。白无常又说，“你以为我们为什么要答应你的要求？老实说，十年前你对我们诉的苦可没有她当年说的令人感动，不过看在你们夫妻感情深厚，才让你们多活了十年。”
+
+　　阿芳拉着阿山的手说，“山哥，这二十年我过的很幸福，但因为我是鬼的关系，唯一的遗憾就是没办法为你生下一男半女。”
+
+　　阿山此时已经明白了一切，他还以为是自己陪着妻子过了十年，没想到是妻子陪着自己过了二十年啊，“没关系，有你在，就好。人又如何，鬼又如何，得妻如此，夫复何求！”','2020/05/24') [ RunTime:0.0053s ]
+SQL: UPDATE `wenzhang` SET `tp`='22.jpg' WHERE ( id=22 ) [ RunTime:0.0045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2020-05-24T11:03:31+08:00 ] 110.53.67.5 /index.php/admin/edit/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /var/www/html/Application/Admin/Controller/EditController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wenzhang` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` LIMIT 1   [ RunTime:0.0543s ]
+NOTIC: [8] Undefined index: num /var/www/html/Application/Admin/Controller/EditController.class.php 第 19 行.
+NOTIC: [8] Undefined index: id /var/www/html/Application/Admin/Controller/EditController.class.php 第 26 行.
+NOTIC: [2] Use of undefined constant stripcslashes - assumed 'stripcslashes' (this will throw an Error in a future version of PHP) /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000243s ]
+
+[ 2020-05-24T11:06:24+08:00 ] 110.53.67.5 /index.php/admin/edit/inset
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /var/www/html/Application/Admin/Controller/EditController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0009s ]
+SQL: INSERT INTO `wenzhang` (`fl`,`zz`,`bt`,`zy`,`nr`,`rq`) VALUES ('2','admin','八仙过海','     所谓八仙是指八位仙人，他们分别是：铁拐李、汉钟离、蓝采和、张果老、何仙姑、韩湘子、曹国舅和','     所谓八仙是指八位仙人，他们分别是：铁拐李、汉钟离、蓝采和、张果老、何仙姑、韩湘子、曹国舅和吕洞宾。
+
+     有一天，八仙向西王母拜寿回来，腾云驾雾从东海上空经过，只见海上波涛汹涌，白浪滔天，煞是壮观。于是，八仙决定到海面上玩一玩。
+
+     吕洞宾说：“大家把自己的宝物扔到海面上，借着它渡过大海，比一比谁更有神通，怎么样？”
+
+
+     铁拐李首先对这一建议表示欢迎，他兴致昂扬地说：“好啊！大家先看我的！”便把拐杖投向海中，拐杖像一条小船漂浮在水面，铁拐李一个筋斗，翻立在拐杖上。
+     接着汉钟离把他的芭蕉扇丢到海上，跳下去站在上面。
+
+     接着，其他几位仙人也各显神通，张果老倒骑着毛驴，吕洞宾踏着雌雄宝剑，韩湘子坐着萧，何仙姑乘着花篮，蓝采和站在拍板上，曹国舅踩着玉版，都在海面上漂浮了起来。 www.shenhuagushi.net
+
+     八仙安稳地顺着汹涌的波浪漂去，这与腾云驾雾感觉大不相同，别有一番新的刺激和情调，大家玩得好不快意。
+
+      这时，曹国舅突然用手指向右边，并高声喊道：
+      “大家看啊！那里有座海市蜃楼！”
+
+      大家转头一看，只见一座仙山渐渐地从海里升起，山上有树木，有楼房，一会儿就升到半空中，慢慢地变成天边的浮云，一转眼，那浮云又被风吹散了。
+
+      韩湘子说：“我们真是眼福不浅！蜃气是海里蛟龙嘘出来的气体 ，百年难得一见啊！”
+
+      突然 ，蓝采和从他们当中消失了。大家远近观望，一边找一边喊，可就是不见蓝采和的踪迹，张果老猜说：
+
+      “可能是东海龙王作怪，他不欢迎我们在他的海上大显神通，把蓝采和抓到龙宫去了，走 我们一起到龙宫要人去！”
+      大家来到龙宫，婉言请求龙王放人。龙王蛮不讲理，不但不肯，还派自己的几个儿子带领虾兵蟹将追杀八仙。八仙只得用随身的法宝当武器，抵抗虾兵蟹将，经过一场激烈的战斗之后，龙王的两个太子被八仙杀死了。
+
+      龙王一听，自己的两个儿子被八仙杀了，真是悲愤至极，商请南海、西海、北海龙王来帮忙。龙王的不依不饶，把八仙也给惹火了。铁拐李用酒葫芦把海水吸光，其余几位仙人将泰山搬了过来，往东海一扔，东海立刻变成了一座高 。
+
+      双方打得天昏地暗，日月无光，把太上老君、如来佛和观世音也惊动了，他们全都赶来调解。调解的结果是，由蓝采和送东海龙王两片玉版，作为杀两位太子的补偿泰山则由观世音负责搬回原处。
+
+      因为这一场纠纷，八仙被玉皇大帝降级一等。从此，八仙再也不敢到外面惹是生非了。','2020/05/24') [ RunTime:0.0048s ]
+SQL: UPDATE `wenzhang` SET `tp`='23.jpg' WHERE ( id=23 ) [ RunTime:0.0048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000030s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000225s ]
+
+[ 2020-05-24T11:06:25+08:00 ] 110.53.67.5 /index.php/admin/edit/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /var/www/html/Application/Admin/Controller/EditController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wenzhang` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` LIMIT 1   [ RunTime:0.0588s ]
+NOTIC: [8] Undefined index: num /var/www/html/Application/Admin/Controller/EditController.class.php 第 19 行.
+NOTIC: [8] Undefined index: id /var/www/html/Application/Admin/Controller/EditController.class.php 第 26 行.
+NOTIC: [2] Use of undefined constant stripcslashes - assumed 'stripcslashes' (this will throw an Error in a future version of PHP) /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000254s ]
+
+[ 2020-05-24T11:10:26+08:00 ] 110.53.67.5 /index.php/admin/edit/inset
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /var/www/html/Application/Admin/Controller/EditController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0011s ]
+SQL: INSERT INTO `wenzhang` (`fl`,`zz`,`bt`,`zy`,`nr`,`rq`) VALUES ('1','admin','买椟还珠','　　春秋时代，楚国有一个商人，专门卖珠宝的，有一次他到齐国去兜售珠宝，为了生意好，珠宝畅销起见，特地','　　春秋时代，楚国有一个商人，专门卖珠宝的，有一次他到齐国去兜售珠宝，为了生意好，珠宝畅销起见，特地用名贵的木料，造成许多小盒子，把盒子雕刻装饰得非常精致美观，使盒子会发出一种香味，然后把珠宝装在盒子里面。
+　　有一个郑国人，看见装宝珠的盒子既精致又美观，问明了价钱后，就买了一个，打开盒子，把里面的宝物拿出来，退还给珠宝商。
+    买下木匣，退还了珍珠。常用来比喻人没有眼力，取舍不当而错失珍贵的东西。','2020/05/24') [ RunTime:0.0049s ]
+SQL: UPDATE `wenzhang` SET `tp`='24.jpg' WHERE ( id=24 ) [ RunTime:0.0059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2020-05-24T11:10:27+08:00 ] 110.53.67.5 /index.php/admin/edit/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /var/www/html/Application/Admin/Controller/EditController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wenzhang` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` LIMIT 1   [ RunTime:0.0548s ]
+NOTIC: [8] Undefined index: num /var/www/html/Application/Admin/Controller/EditController.class.php 第 19 行.
+NOTIC: [8] Undefined index: id /var/www/html/Application/Admin/Controller/EditController.class.php 第 26 行.
+NOTIC: [2] Use of undefined constant stripcslashes - assumed 'stripcslashes' (this will throw an Error in a future version of PHP) /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+NOTIC: [2] stripcslashes() expects parameter 1 to be string, array given /var/www/html/Application/Admin/Controller/EditController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+

@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>后台管理</title>
-    <link rel="stylesheet" type="text/css" href="__ROOT__/__HRES__/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="__ROOT__/__HRES__/css/main.css"/>
-    <script type="text/javascript" src="__ROOT__/__HRES__/js/libs/modernizr.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Application/Admin/public/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/Application/Admin/public/css/main.css"/>
+    <script type="text/javascript" src="/Application/Admin/public/js/libs/modernizr.min.js"></script>
 </head>
 <body>
 <div class="topbar-wrap white">
     <div class="topbar-inner clearfix">
         <div class="topbar-logo-wrap clearfix">
-            <h1 class="topbar-logo none"><a href="index.html" class="navbar-brand">后台管理</a></h1>
+            <h1 class="topbar-logo none"><a href="/index.php/Admin" class="navbar-brand">后台管理</a></h1>
             <ul class="navbar-list clearfix">
-                <li><a class="on" href="index.html">首页</a></li>
-                <li><a href="#" target="_blank">网站首页</a></li>
+                <li><a class="on" href="/index.php/Admin">首页</a></li>
+                <li><a href="/" target="_blank">网站首页</a></li>
             </ul>
         </div>
         <div class="top-info-wrap">
             <ul class="top-info-list clearfix">
-                <li><a href="http://www.jscss.me">管理员</a></li>
-                <li><a href="http://www.jscss.me">修改密码</a></li>
-                <li><a href="http://www.jscss.me">退出</a></li>
+                <li><a href="/index.php/home/index/about">管理员</a></li>
+                <li><a href="/index.php/home/index/about">修改密码</a></li>
+                <li><a href="/">退出</a></li>
             </ul>
         </div>
     </div>
@@ -36,22 +36,22 @@
                 <li>
                     <a href="#"><i class="icon-font">&#xe003;</i>常用操作</a>
                     <ul class="sub-menu">
-                        <li><a href="design.html"><i class="icon-font">&#xe008;</i>作品管理</a></li>
-                        <li><a href="design.html"><i class="icon-font">&#xe005;</i>博文管理</a></li>
-                        <li><a href="design.html"><i class="icon-font">&#xe006;</i>分类管理</a></li>
-                        <li><a href="design.html"><i class="icon-font">&#xe004;</i>留言管理</a></li>
-                        <li><a href="design.html"><i class="icon-font">&#xe012;</i>评论管理</a></li>
-                        <li><a href="design.html"><i class="icon-font">&#xe052;</i>友情链接</a></li>
-                        <li><a href="design.html"><i class="icon-font">&#xe033;</i>广告管理</a></li>
+                        <li><a href="/index.php/Admin/Edit/lst"><i class="icon-font">&#xe008;</i>作品管理</a></li>
+                        <li><a href="/index.php/Admin/Edit/lst"><i class="icon-font">&#xe005;</i>博文管理</a></li>
+                        <li><a href="/index.php/Admin/Edit/lst"><i class="icon-font">&#xe006;</i>分类管理</a></li>
+                        <li><a href="/index.php/Admin/Edit/lst"><i class="icon-font">&#xe004;</i>留言管理</a></li>
+                        <li><a href="/index.php/Admin/Edit/lst"><i class="icon-font">&#xe012;</i>评论管理</a></li>
+                        <li><a href="/index.php/Admin/Edit/lst"><i class="icon-font">&#xe052;</i>友情链接</a></li>
+                        <li><a href="/index.php/Admin/Edit/lst"><i class="icon-font">&#xe033;</i>广告管理</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="#"><i class="icon-font">&#xe018;</i>系统管理</a>
                     <ul class="sub-menu">
-                        <li><a href="system.html"><i class="icon-font">&#xe017;</i>系统设置</a></li>
-                        <li><a href="system.html"><i class="icon-font">&#xe037;</i>清理缓存</a></li>
-                        <li><a href="system.html"><i class="icon-font">&#xe046;</i>数据备份</a></li>
-                        <li><a href="system.html"><i class="icon-font">&#xe045;</i>数据还原</a></li>
+                        <li><a href="/"><i class="icon-font">&#xe017;</i>系统设置</a></li>
+                        <li><a href="/"><i class="icon-font">&#xe037;</i>清理缓存</a></li>
+                        <li><a href="/"><i class="icon-font">&#xe046;</i>数据备份</a></li>
+                        <li><a href="/"><i class="icon-font">&#xe045;</i>数据还原</a></li>
                     </ul>
                 </li>
             </ul>
@@ -61,11 +61,11 @@
     <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/jscss/admin">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">作品管理</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="/index.php/Admin">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">作品管理</span></div>
         </div>
         <div class="search-wrap">
             <div class="search-content">
-                <form action="/jscss/admin/design/index" method="post">
+                <form action="/index.php/admin" method="post">
                     <table class="search-tab">
                         <tr>
                             <th width="120">选择分类:</th>
@@ -76,7 +76,7 @@
                                 </select>
                             </td>
                             <th width="70">关键字:</th>
-                            <td><input class="common-text" placeholder="关键字" name="keywords" value="" id="" type="text"></td>
+                            <td><input class="common-text" placeholder="关键字" name="keywords" value="作品还少，暂未实现搜索！" id="" type="text"></td>
                             <td><input class="btn btn-primary btn2" name="sub" value="查询" type="submit"></td>
                         </tr>
                     </table>
@@ -87,9 +87,8 @@
             <form name="myform" id="myform" method="post">
                 <div class="result-title">
                     <div class="result-list">
-                        <a href="__ROOT__/__HRES__/inset.html"><i class="icon-font"></i>新增作品</a>
-                        <a id="batchDel" href="javascript:void(0)"><i class="icon-font"></i>批量删除</a>
-                        <a id="updateOrd" href="javascript:void(0)"><i class="icon-font"></i>更新排序</a>
+                        <a href="/Application/Admin/public/inset.html"><i class="icon-font"></i>新增作品</a>
+                        <a id="batchDel" href="/index.php/Admin/edit/del"><i class="icon-font"></i>批量删除</a>
                     </div>
                 </div>
                 <div class="result-content">
@@ -106,46 +105,22 @@
                             <th>评论</th>
                             <th>操作</th>
                         </tr>
-                        <tr>
-                            <td class="tc"><input name="id[]" value="59" type="checkbox"></td>
-                            <td>
-                                <input name="ids[]" value="59" type="hidden">
-                                <input class="common-input sort-input" name="ord[]" value="0" type="text">
-                            </td>
-                            <td>59</td>
-                            <td title=""><a target="_blank" href="#" title=""></a> …
-                            </td>
-                            <td>0</td>
-                            <td>2</td>
-                            <td>admin</td>
-                            <td>2014-03-15 21:11:01</td>
-                            <td></td>
-                            <td>
-                                <a class="link-update" href="#">修改</a>
-                                <a class="link-del" href="#">删除</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="tc"><input name="id[]" value="58" type="checkbox"></td>
-                            <td>
-                                <input name="ids[]" value="58" type="hidden">
-                                <input class="common-input sort-input" name="ord[]" value="0" type="text">
-                            </td>
-                            <td>58</td>
-                            <td title=""><a target="_blank" href="#" title=""></a> …
-                            </td>
-                            <td>0</td>
-                            <td>35</td>
-                            <td>admin</td>
-                            <td>2013-12-30 22:34:00</td>
-                            <td></td>
-                            <td>
-                                <a class="link-update" href="#">修改</a>
-                                <a class="link-del" href="#">删除</a>
-                            </td>
-                        </tr>
+                        <?php $a=0; foreach($wenz as $value=>$data): ?>
+		        <if condition="$data['id'] neq ''">
+                        <?php echo "<tr><td class='tc'><input name='num".$a."' "; ?>
+                        <?php echo  "value='".$data['id']."' type='checkbox'></td>"; ?>
+                        <?php echo "<td><input class='common-input sort-input' name='ord[]' value='0' type='text'></td>"; ?>
+                        <?php echo "<td>".$data['id']."</td>"; ?>
+                        <?php echo "<td title='".$data['bt']."'>"; ?>
+                        <?php echo "<a target='_blank' href='/index.php/Home/index/read?id=".$data['id']."' title='".$data['bt']."'></a>"; ?>
+                        <?php echo $data['bt']."</td>"; ?>
+                        <?php echo "<td>0</td><td>99</td><td>".$data['zz']."</td><td>".$data['rq']."</td><td></td>"; ?>
+                        <?php $a++; echo "<td><a class='link-del' href='/index.php/admin/edit/del?id=".$data['id']; ?>
+                        <?php echo "'>删除</a></td></tr>"; ?>
+		        </if>
+                        <?php endforeach; ?>
                     </table>
-                    <div class="list-page"> 2 条 1/1 页</div>
+                    <div class="list-page"> {$count} 条   {$numb} / {$page} 页</div>
                 </div>
             </form>
         </div>

